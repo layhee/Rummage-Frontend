@@ -404,14 +404,15 @@ input[type=submit]:hover{
     display: grid;
     grid-template-columns: 1fr;
   }
+  .item-show-grid img{
+    border: 8px solid dodgerblue;
+    width: 66%;
+  }
 }
 
 @media (width <= 736px){
   h6{
     font-size: .7rem;
-  }
-  .item-show-grid img{
-    border: 8px solid dodgerblue;
   }
 }
 
