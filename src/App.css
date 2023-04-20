@@ -270,15 +270,18 @@ button:hover{
   display: flex;
   justify-content: center;
 }
-input[type=textarea]{
+textarea{
   word-break: break-all;
   width: 100%;
-  background: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  color:rgb(41, 41, 46);
   height: 6em;
   width: 100%;
   white-space: normal;
   word-wrap: break-word;
   flex-direction: column;
+  font-weight: 700;
+  resize: vertical;
 }
 input[type=submit]{
   background-color: dodgerblue;
@@ -296,7 +299,7 @@ input[type=submit]:hover{
 .new-item input[type=text]{
   display: flex;
   justify-content: center;
-  background-color: antiquewhite;
+  background-color: rgb(255, 255, 255);
   margin-bottom: 0;
   color:rgb(41, 41, 46);
   font-weight: 700;
@@ -304,7 +307,7 @@ input[type=submit]:hover{
 :is(.new-item input[type=text], .new-item input[type=textarea]){
   display: flex;
   justify-content: center;
-  background-color: antiquewhite;
+  background-color: rgb(255, 255, 255);
   color:rgb(41, 41, 46);
   font-weight: 700;
   word-break: break-all;
